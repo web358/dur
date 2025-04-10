@@ -286,3 +286,9 @@
     margin-left: 10%;
    }
   }
+
+  @media (max-width: 540px) {
+    .step-item, .step-item2{
+      height: 300px;
+    }
+   }
