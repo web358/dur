@@ -229,11 +229,11 @@
     .moving2{
       width: 500px;
     }
-    .lastImage {
+    #lastImage {
       display: block;
       margin-left: 20%;
     }
-    .lastImage2 {
+    #lastImage2 {
       display: block;
     }
     #address-wrapper {
@@ -269,7 +269,7 @@
     .icon-wrapper img {
       margin-left: 40%;
     }
-    .lastImage, .lastImage2 {
+    #lastImage, #lastImage2 {
       display: none;
     }
     #address-wrapper{
@@ -280,7 +280,7 @@
     .store-item:nth-last-child {
       display: none;
     }
-    .lastImage, .lastImage2 {
+    #lastImage, #lastImage2 {
       display: none;
     }
   }
