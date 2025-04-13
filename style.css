@@ -345,7 +345,10 @@ body {
     text-align: center;
     padding: 24px;
   }
-  
+  .icon-wrapper2 {
+    /* !!! */
+    opacity: 0;
+  }
   .icon-wrapper {
     display: inline-block;
     border-radius: 50%;
@@ -363,7 +366,11 @@ body {
     margin-left: 15%;
   }
 
-  .scroll-animation3 {
+   .scroll-animation3 {
+    opacity: 1;
+    transform: translateX(1);
+  }
+  .scroll-animation2 {
     opacity: 1;
     transform: translateX(1);
   }
@@ -545,6 +552,6 @@ body {
   text-shadow:  2px 1px 2px rgb(147, 123, 59);
   animation: neon 4s ease infinite
  }
- .lastImage, .lastImage2 {
+ #lastImage, #lastImage2 {
   display: none;
  }
