@@ -1,22 +1,22 @@
-// const the_animation2 = document.querySelectorAll('.brown')
+const the_animation2 = document.querySelectorAll('.icon-wrapper2')
 
-// const observer2 = new IntersectionObserver(x => {
-//     x.forEach((entry) => {
-//         if (entry.isIntersecting) {
-//             entry.target.classList.add('scroll-animation2')
-//         }
-//             else {
-//                 entry.target.classList.remove('scroll-animation2')
-//             }
+const observer2 = new IntersectionObserver(x => {
+    x.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('scroll-animation2')
+        }
+            else {
+                entry.target.classList.remove('scroll-animation2')
+            }
         
-//     })
-// }, { threshold: 0.5});
+    })
+}, { threshold: 1});
 
-//   for (let i = 0; i < the_animation2.length; i++) {
-//    const elements = the_animation2[i];
+  for (let i = 0; i < the_animation2.length; i++) {
+   const elements = the_animation2[i];
 
-//     observer2.observe(elements);
-//   }
+    observer2.observe(elements);
+  }
 
 
   const the_animation3 = document.querySelectorAll('.icon-wrapper')
