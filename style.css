@@ -139,12 +139,12 @@ body {
   
   #landing-section {
     width: 100%;
-    height: 120vh;
+    height: 100vh;
   }
   
   #main-text-wrapper {
     width: 100%;
-    height: 50%;
+    height:60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -393,8 +393,8 @@ body {
     letter-spacing: 0.5px;
     font-weight: 500;
     color: white;
-    /* width: 250px; */
-    /* margin-left: 15%; */
+    /* min-width: 250px; */
+    margin-left: 15%;
   }
   /* STORE SECTION STYLES ENDS */
   
